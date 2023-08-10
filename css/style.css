@@ -105,7 +105,7 @@ section {
 }
 
 .home-text h1 {
-	font-size: 5rem;
+	font-size: 3rem;
 	font-weight: 700;
 	color: #fff;
 	line-height: 1.1;
@@ -453,4 +453,9 @@ header.sticky {
 	.navlist.open {
 		top: 100%;
 	}
+	.button {
+		flex-direction: row; /* Revert to horizontal alignment */
+		justify-content: center; /* Center buttons horizontally */
+		margin-top: 20px; /* Add spacing between buttons */
+}
 }
